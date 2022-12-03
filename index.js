@@ -9,7 +9,7 @@ import { globalRouter } from "./const/router.const.js";
 const { MONGO_USER, MONGO_PASSWORD, MONGO_CLUSTER, MONGO_DB_NAME } =
   process.env;
 
-const MONGO_URI = `mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_CLUSTER}.snoqoer.mongodb.net/${MONGO_DB_NAME}?retryWrites=true&w=majority`;
+const MONGO_URI = `mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_CLUSTER}.7st5dlx.mongodb.net/${MONGO_DB_NAME}?retryWrites=true&w=majority`;
 
 const app = express();
 
